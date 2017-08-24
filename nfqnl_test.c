@@ -6,8 +6,8 @@
 #include <linux/types.h>
 #include <linux/netfilter.h>		/* for NF_ACCEPT */
 #include <errno.h>
-
 #include <libnetfilter_queue/libnetfilter_queue.h>
+#include "protocol_information.h"
 
 /* returns packet id */
 static u_int32_t print_pkt (struct nfq_data *tb)
