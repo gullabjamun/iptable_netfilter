@@ -55,6 +55,6 @@
 		u_short th_urp;		/* urgent pointer */
 };
 	struct sniff_data {
-		u_char datavalue[100];
+		unsigned char datavalue[100];
 };
 
